@@ -1,28 +1,8 @@
-# 🪐 NASA PDS New Java Project Template
+# 🪐 Exmplar
 
-This repository aims at being a base for new Java repositories used in PDS. It guides developers to ease the initialization of a project and recommends preferred options to standardize developments and ease maintenance. Simply click the <kbd>Use this template</kbd> button ↑ (or use [this hyperlink](https://github.com/NASA-PDS/pds-template-repo-java/generate)).
+This is a demonstration repository proving that we can build things from the PDS template repository for Java projects.
 
-## 🏃 Getting Started With This Template
-
-See our wiki page for more info on setting up your new repo. You can remove this section once you have completed the necessary start-up steps.
-
-https://github.com/NASA-PDS/nasa-pds.github.io/wiki/Git-and-Github-Guide#creating-a-new-repo
-
-**👉 Important!** You must assign the teams as mentioned on the wiki page above! At a minimum, these are:
-
-| Team                                | Permission |
-| ----------------------------------- | ---------- |
-| `@NASA-PDS/pds-software-committers` | `write`    |
-| `@NASA-PDS/pds-software-pmc`        | `admin`    |
-| `@NASA-PDS/pds-operations`          | `admin`    |
-
----
-
-# My Project
-
-This is the XYZ that does this, that, and the other thing for the Planetary Data System.
-
-Please visit our website at: https://nasa-pds.github.io/pds-my-project
+Please visit our website at: https://nasa-pds-engineering-node.github.io/exemplar
 
 It has useful information for developers and end-users.
 
@@ -43,12 +23,16 @@ It has useful information for developers and end-users.
 
 ## 📀 Installation
 
-_Installation instructions here_.
+Do the usual:
+
+    mvn package
 
 
 ## 💁‍♀️ Usage
 
-_Basic usage instructions here_.
+Try:
+
+    java -jar target/exemplar-0.0.0-SNAPSHOT.jar
 
 
 ## 👥 Contributing
@@ -68,6 +52,7 @@ We use the [SemVer](https://semver.org/) philosophy for versioning this software
 
 _**NOTE: Requires using [PDS Maven Parent POM](https://github.com/NASA-PDS/pdsen-maven-parent) to ensure release profile is set.**_
 
+
 #### Update Version Numbers
 
 Update pom.xml for the release version or use the Maven Versions Plugin, e.g.:
@@ -81,6 +66,7 @@ git add */pom.xml
 ```
 
 #### Update Changelog
+
 Update Changelog using [Github Changelog Generator](https://github.com/github-changelog-generator/github-changelog-generator). Note: Make sure you set `$CHANGELOG_GITHUB_TOKEN` in your `.bash_profile` or use the `--token` flag.
 ```
 # For RELEASE CANDIDATE, set VERSION to future release version.
@@ -92,6 +78,7 @@ git add CHANGELOG.md
 ```
 
 #### Commit Changes
+
 Commit changes using following template commit message:
 ```
 # For operational release
@@ -102,7 +89,6 @@ git push -u origin main
 ```
 
 #### Build and Deploy Software to Maven Central Repo
-
 ```
 # For operational release
 mvn clean site site:stage package deploy -P release
@@ -123,9 +109,9 @@ git push --tags
 
 ```
 
-#### Deploy Site to Github Pages
 
-From cloned repo:
+#### Deploy Site to Github Pages
+From a cloned repository:
 ```
 git checkout gh-pages
 
@@ -143,12 +129,12 @@ git commit -m "Deploy v${VERSION}-rc${CANDIDATE_NUM} docs"
 git push origin gh-pages
 ```
 
+
 #### Update Versions For Development
 
 Update `pom.xml` with the next SNAPSHOT version either manually or using Github Versions Plugin.
 
 For RELEASE CANDIDATE, ignore this step.
-
 ```
 git checkout main
 
@@ -163,12 +149,14 @@ git push -u origin main
 ```
 
 #### Complete Release in Github
+
 Currently the process to create more formal release notes and attach Assets is done manually through the Github UI, but should eventually be automated via script.
 
 *NOTE: Be sure to add the `tar.gz` and `zip` from the `target/` directory to the release assets, and use the CHANGELOG generated above to create the RELEASE NOTES.*
 
 
 ### CI/CD
+
 The template repository comes with our two "standard" CI/CD workflows, `stable-cicd` and `unstable-cicd`. The unstable build runs on any push to `main` (+/- ignoring changes to specific files) and the stable build runs on push of a release branch of the form `release/<release version>`. Both of these make use of our GitHub actions build step, [Roundup](https://github.com/NASA-PDS/roundup-action). The `unstable-cicd` will generate (and constantly update) a SNAPSHOT release. If you haven't done a formal software release you will end up with a `v0.0.0-SNAPSHOT` release (see NASA-PDS/roundup-action#56 for specifics). Additionally, tests are executed on any non-`main` branch push via `branch-cicd`.
 
 

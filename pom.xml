@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!--
-Note to template users: update the copyright in this file (and all others) as needed.
-
 Copyright © 2021, California Institute of Technology ("Caltech").
 U.S. Government sponsorship acknowledged.
 
@@ -32,14 +30,6 @@ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 -->
-
-
-<!--
-👉 This is the TEMPLATE project object model or `pom.xml` file.
-
-Go through this file line-by-line and replace the template values with your own.
--->
-
 <project xmlns='http://maven.apache.org/POM/4.0.0'
          xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
          xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
@@ -58,10 +48,8 @@ Go through this file line-by-line and replace the template values with your own.
         <version>1.12.0</version>
     </parent>
   
-    <!-- My project metadata here -->
     <properties>
-        <!-- Obviously put in your own project name instead of `myproject` -->
-        <project-name>myproject</project-name>
+        <project-name>Exemplar</project-name>
 
         <!-- You'll want a Unicode-type encoding here in almost every case -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -76,15 +64,16 @@ Go through this file line-by-line and replace the template values with your own.
     The next part of the Maven coorindate is the name of the artifact, its "artifact ID". Note we cannot use
     any expression here, as tempting as it would be to use ${project-name} here:
     -->
-    <artifactId>myproject</artifactId>
+    <artifactId>exemplar</artifactId>
     <!-- The third part of the Maven coorindate is the version identifier of the artifact: -->
-    <version>1.0.0-SNAPSHOT</version>
+    <version>0.0.0-SNAPSHOT</version>
     <!-- The final part is the kind: here we make a `jar`, but there's `war`, `ejb`, `ear`, `maven-plugin`, etc.: -->
     <packaging>jar</packaging>
 
     <name>${project.groupId}:${project-name}</name>
     <description>
-        Put a short paragraph-sized summary of the project here.
+        Exemplar is just an example or demonstration Java-based project based on the PDS template for
+        Java projects.
     </description>
     <!-- Check the calendar -->
     <inceptionYear>2021</inceptionYear>
@@ -109,19 +98,6 @@ Go through this file line-by-line and replace the template values with your own.
             <version>5.8.0-M1</version>
             <scope>test</scope>
         </dependency>
-        <!--
-        Here's an example dependency; you can find dependencies at https://search.maven.org. This isn't
-        actually used by this template, but is shown full-fleshed out because chances are your project
-        will need at least one if not many dependencies.
-        -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-numbers-primes</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>compile</scope>
-            <optional>false</optional>
-        </dependency>
     </dependencies>
 
     <build>
@@ -134,9 +110,9 @@ Go through this file line-by-line and replace the template values with your own.
                 <directory>${basedir}/src/main/resources</directory>
                 <filtering>true</filtering>
                 <includes>
-                    <include>example.properties</include>
+                    <include>exemplar.properties</include>
                 </includes>
-                <targetPath>gov/nasa/pds/mypackage</targetPath>
+                <targetPath>gov/nasa/pds/exemplar</targetPath>
             </resource>
             <!-- You can give <testResources> for resources needed during the test phase -->
         </resources>
@@ -167,7 +143,7 @@ Go through this file line-by-line and replace the template values with your own.
                             <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
                         </manifest>
                         <manifestEntries>
-                            <Main-Class>gov.nasa.pds.mypackage.Main</Main-Class>
+                            <Main-Class>gov.nasa.pds.exemplar.Main</Main-Class>
                         </manifestEntries>
                     </archive>
                 </configuration>

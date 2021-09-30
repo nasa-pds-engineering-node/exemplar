@@ -28,50 +28,27 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-package gov.nasa.pds.mypackage;
+package gov.nasa.pds.exemplar;
 
-import java.io.BufferedInputStream;
-import java.io.InputStreamReader;
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.Properties;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 /**
- * The main class with its main entry point.
+ * My test.
  * 
- * Note that the static initializer for this class loads resources which must be present in the classpath
- * (i.e., in the jar in which this class is packaged).
- * 
- * @author The Planetary Data System
- * @since 2021
+ * This is an example test class, showing off an example test.
  */
-public final class Main {
-    /** The greeting to display when the entry point is entered */
-    private static String greeting;
-
+public class MyTest {
     /**
-     * The entry point.
+     * Test something.
      * 
-     * @param argv Argument vector; these command-line arguments are ignored.
-     * @throws Throwable if any error occurs.
+     * Checks if 2 plus 2 equals 4.
      */
-    public static void main(String[] argv) throws Throwable {
-        System.out.println(greeting);
+    @Test
+    @DisplayName("Testing something 🤔")
+    public void testSomething() {
+        assertEquals(4, 2 + 2, "🚨 2 + 2 should equal 4");
     }
-
-    // Static initializers don't get doc comments.
-    static {
-        try {
-            Properties props = new Properties();
-            BufferedInputStream in = new BufferedInputStream(Main.class.getResourceAsStream("example.properties"));
-            InputStreamReader reader = new InputStreamReader(in, StandardCharsets.UTF_8);
-            props.load(reader);
-            in.close();
-            greeting = props.getProperty("example.greeting");
-        } catch (IOException ex) {
-            throw new IllegalStateException(ex);
-        }
-    }
-
 }

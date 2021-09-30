@@ -31,7 +31,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 -->
 
-<project name='My Project'>
+<project name='Exemplar'>
     <skin>
         <groupId>org.apache.maven.skins</groupId>
         <artifactId>maven-fluido-skin</artifactId>
@@ -53,18 +53,11 @@ POSSIBILITY OF SUCH DAMAGE.
 
     <body>
         <links>
-            <item name='My Project Github Repo' href='https://github.com/NASA-PDS/${project.name}' />
+            <item name='Exemplar Github Repo' href='https://github.com/NASA-PDS/${project.name}' />
         </links>
 
         <menu name='Documentation'>
-            <item name='About My Project' href='index.html'/>
-            <!--
-            Feel free to reference other pages here, for example:
-
-            <item name='Installation' href='install/index.html'/>
-            <item name='Operation' href='operate/index.html'/>
-            <item name='What to do if it start smoking' href='explosion/index.html'/>
-            -->
+            <item name='About Exmplar' href='index.html'/>
         </menu>
 
         <menu ref='reports'/>

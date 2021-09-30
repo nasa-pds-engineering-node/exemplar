@@ -4,4 +4,4 @@
  * Documentation about the package goes here.
  */
 
-package gov.nasa.pds.mypackage;
+package gov.nasa.pds.exemplar;
