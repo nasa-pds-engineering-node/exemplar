@@ -1,4 +1,4 @@
-# 🪐 Exmplar
+# 🪐 Exemplar
 
 This is a demonstration repository proving that we can build things from the PDS template repository for Java projects.
 
