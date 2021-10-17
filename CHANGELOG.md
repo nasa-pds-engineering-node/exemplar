@@ -1,5 +1,9 @@
 # Changelog
 
+## [v2.5.2](https://github.com/nasa-pds-engineering-node/exemplar/tree/v2.5.2) (2021-10-17)
+
+[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/v2.5.1-SNAPSHOT...v2.5.2)
+
 ## [v2.5.1-SNAPSHOT](https://github.com/nasa-pds-engineering-node/exemplar/tree/v2.5.1-SNAPSHOT) (2021-10-17)
 
 [Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/v2.5.0...v2.5.1-SNAPSHOT)
