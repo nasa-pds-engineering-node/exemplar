@@ -1,5 +1,9 @@
 # Changelog
 
+## [v2.11.0-SNAPSHOT](https://github.com/nasa-pds-engineering-node/exemplar/tree/v2.11.0-SNAPSHOT) (2022-07-26)
+
+[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/v2.10.0...v2.11.0-SNAPSHOT)
+
 ## [v2.10.0](https://github.com/nasa-pds-engineering-node/exemplar/tree/v2.10.0) (2022-04-21)
 
 [Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/v2.9.0...v2.10.0)
@@ -14,11 +18,7 @@
 
 ## [v2.7.0](https://github.com/nasa-pds-engineering-node/exemplar/tree/v2.7.0) (2022-04-21)
 
-[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/v2.6.1-SNAPSHOT...v2.7.0)
-
-## [v2.6.1-SNAPSHOT](https://github.com/nasa-pds-engineering-node/exemplar/tree/v2.6.1-SNAPSHOT) (2022-04-21)
-
-[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/v2.6.0...v2.6.1-SNAPSHOT)
+[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/v2.6.0...v2.7.0)
 
 ## [v2.6.0](https://github.com/nasa-pds-engineering-node/exemplar/tree/v2.6.0) (2021-11-05)
 
