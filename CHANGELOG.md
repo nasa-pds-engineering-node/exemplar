@@ -1,8 +1,12 @@
 # Changelog
 
-## [v3.0.10SNAPSHOT](https://github.com/nasa-pds-engineering-node/exemplar/tree/v3.0.10SNAPSHOT) (2022-10-26)
+## [release/3.0.11](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/3.0.11) (2022-10-26)
 
-[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/3.0.10...v3.0.10SNAPSHOT)
+[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/v3.0.10...release/3.0.11)
+
+## [v3.0.10](https://github.com/nasa-pds-engineering-node/exemplar/tree/v3.0.10) (2022-10-26)
+
+[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/3.0.10...v3.0.10)
 
 ## [release/3.0.10](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/3.0.10) (2022-10-26)
 
@@ -38,15 +42,15 @@
 
 ## [release/3.0.4](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/3.0.4) (2022-10-24)
 
-[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/3.0.5...release/3.0.4)
-
-## [release/3.0.5](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/3.0.5) (2022-10-24)
-
-[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/3.0.3...release/3.0.5)
+[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/3.0.3...release/3.0.4)
 
 ## [release/3.0.3](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/3.0.3) (2022-10-24)
 
-[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/3.0.6...release/3.0.3)
+[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/3.0.5...release/3.0.3)
+
+## [release/3.0.5](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/3.0.5) (2022-10-24)
+
+[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/3.0.6...release/3.0.5)
 
 ## [release/3.0.6](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/3.0.6) (2022-10-24)
 
