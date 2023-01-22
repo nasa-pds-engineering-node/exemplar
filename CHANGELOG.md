@@ -1,8 +1,8 @@
 # Changelog
 
-## [v4.0.0SNAPSHOT](https://github.com/nasa-pds-engineering-node/exemplar/tree/v4.0.0SNAPSHOT) (2023-01-17)
+## [v4.0.1-SNAPSHOT](https://github.com/nasa-pds-engineering-node/exemplar/tree/v4.0.1-SNAPSHOT) (2023-01-20)
 
-[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/4.0.0...v4.0.0SNAPSHOT)
+[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/4.0.0...v4.0.1-SNAPSHOT)
 
 ## [release/4.0.0](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/4.0.0) (2023-01-17)
 
