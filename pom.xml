@@ -45,7 +45,7 @@ POSSIBILITY OF SUCH DAMAGE.
     <parent>
         <groupId>gov.nasa</groupId>
         <artifactId>pds</artifactId>
-        <version>1.16.0</version>
+        <version>1.17.0</version>
     </parent>
   
     <properties>
@@ -148,6 +148,7 @@ POSSIBILITY OF SUCH DAMAGE.
                     </archive>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 
