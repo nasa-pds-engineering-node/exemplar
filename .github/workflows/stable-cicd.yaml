@@ -72,7 +72,7 @@ jobs:
                 uses: nasa-pds-engineering-node/roundup-action@main
                 with:
                     assembly: stable
-                    maven-stable-artifact-phases: clean,deploy
+                    maven-stable-artifact-phases: clean,site,site:stage,deploy
                 env:
                     ossrh_username: ${{secrets.OSSRH_USERNAME}}
                     ossrh_password: ${{secrets.OSSRH_PASSWORD}}
