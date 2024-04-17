@@ -1,20 +1,12 @@
 # Changelog
 
+## [release/5.14.0](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/5.14.0) (2024-04-17)
+
+[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/v5.13.0...release/5.14.0)
+
 ## [v5.13.0](https://github.com/nasa-pds-engineering-node/exemplar/tree/v5.13.0) (2024-04-16)
 
-[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/5.10.0...v5.13.0)
-
-## [release/5.10.0](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/5.10.0) (2024-04-16)
-
-[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/5.12.0...release/5.10.0)
-
-## [release/5.12.0](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/5.12.0) (2024-04-16)
-
-[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/release/5.11.0...release/5.12.0)
-
-## [release/5.11.0](https://github.com/nasa-pds-engineering-node/exemplar/tree/release/5.11.0) (2024-04-16)
-
-[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/v5.2.0...release/5.11.0)
+[Full Changelog](https://github.com/nasa-pds-engineering-node/exemplar/compare/v5.2.0...v5.13.0)
 
 ## [v5.2.0](https://github.com/nasa-pds-engineering-node/exemplar/tree/v5.2.0) (2023-01-24)
 
