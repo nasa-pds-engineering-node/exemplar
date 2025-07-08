@@ -51,6 +51,9 @@
 # Sublime Text files
 *.sublime-*
 
+# VSCode files
+.vscode/
+
 # Shared objects (inc. Windows DLLs)
 *.dll
 *.so
